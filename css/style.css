@@ -651,6 +651,7 @@ body::-webkit-scrollbar-track {
     background-color: #a7a7a7;
     color: #000000;
     padding: 40px 20px;
+    margin-top: auto;
 }
 
 .footer-container {
