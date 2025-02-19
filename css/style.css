@@ -331,6 +331,7 @@ body::-webkit-scrollbar-track {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .left-block, .right-block {
@@ -857,14 +858,14 @@ body::-webkit-scrollbar-track {
     justify-content: center;
 }
 
-.card {
+.card-info {
+    gap: 20px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     width: 300px;
-    text-align: left;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -891,7 +892,7 @@ body::-webkit-scrollbar-track {
         align-items: center;
     }
 
-    .card {
+    .card-info {
         width: 90%;
     }
 
